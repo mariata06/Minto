@@ -13,10 +13,12 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Segoe UI";
   src: url("../fonts/SegoeUI.ttf");
 }
+
 @font-face {
   font-family: "Segoe UI";
   src: url("../fonts/SegoeUI-bold.ttf");
@@ -44,9 +46,11 @@
   width: 1300px;
   margin: 0 auto;
   background: #fff;
-  border-top: #a292b3 solid 8px; /*верхняя и нижняя граница сиреневого цвета*/
+  border-top: #a292b3 solid 8px;
+  /*верхняя и нижняя граница сиреневого цвета*/
   border-bottom: #a292b3 solid 8px;
 }
+
 /*внутренний контейнер где первый блок это header*/
 
 .inner {
@@ -63,12 +67,14 @@ header {
   float: right;
   height: 130px;
 }
+
 .logo img {
   float: left;
   display: flex;
   padding-top: 31px;
 }
-.logo > span {
+
+.logo>span {
   font-size: 39px;
   font-family: "Samo Sans Pro", sans-serif;
   color: rgb(162, 146, 179);
@@ -83,10 +89,12 @@ header {
 
 .top_nav li {
   display: inline-block;
-  line-height: 130px; /*расположения меню посередине хедера задаем его высоту 130рх*/
+  line-height: 130px;
+  /*расположения меню посередине хедера задаем его высоту 130рх*/
   font-size: 19px;
   font-family: "Segoe UI", regular;
 }
+
 .top_nav a {
   text-decoration: none;
   color: rgb(84, 84, 84);
@@ -148,6 +156,7 @@ header {
   top: 292px;
   left: 212px;
 }
+
 .triangular-border {
   position: absolute;
   width: 0;
@@ -157,6 +166,7 @@ header {
   top: 0;
   right: 140px;
 }
+
 .new {
   color: #fff;
   font-family: "Segoe UI";
@@ -167,10 +177,12 @@ header {
   margin-top: -110px;
   margin-left: -70px;
 }
+
 .arrow-left {
   position: absolute;
   top: 210px;
 }
+
 .arrow-right {
   position: absolute;
   right: 140px;
@@ -191,11 +203,13 @@ header {
   line-height: 1.565;
   text-align: center;
 }
+
 #Lorem_ipsum {
   color: rgb(130, 105, 157);
   font-weight: bold;
   font-style: italic;
 }
+
 .hr1 {
   position: relative;
   top: 42px;
@@ -217,12 +231,14 @@ header {
   position: relative;
   top: 30px;
 }
+
 .description-img {
   float: left;
   position: relative;
   top: 48px;
   left: 42px;
 }
+
 .description-img-bg {
   position: absolute;
   z-index: 1;
@@ -230,6 +246,7 @@ header {
   height: 280px;
   border-radius: 50%;
 }
+
 .bg-1 {
   position: absolute;
   top: 10px;
@@ -237,6 +254,7 @@ header {
   opacity: 40%;
   background-color: lightgrey;
 }
+
 .bg-2 {
   position: absolute;
   top: 5px;
@@ -244,6 +262,7 @@ header {
   opacity: 40%;
   background-color: lightgrey;
 }
+
 .bg-3 {
   position: absolute;
   top: 32%;
@@ -251,6 +270,7 @@ header {
   opacity: 40%;
   background-color: lightgrey;
 }
+
 .bg-4 {
   position: absolute;
   top: 30%;
@@ -258,6 +278,7 @@ header {
   opacity: 40%;
   background-color: lightgrey;
 }
+
 .description-img-circle {
   position: absolute;
   top: 10px;
@@ -271,7 +292,7 @@ header {
   margin-left: 370px;
 }
 
-.description-text > h1 {
+.description-text>h1 {
   font-size: 31px;
   font-family: "Segoe UI";
   color: rgb(80, 80, 81);
@@ -280,7 +301,7 @@ header {
   text-align: left;
 }
 
-.description-text > p {
+.description-text>p {
   font-size: 15px;
   font-family: "Segoe UI";
   color: rgb(131, 131, 131);
@@ -288,15 +309,23 @@ header {
   text-align: left;
   margin-top: 30px;
 }
-.description-text > p:last-child {
+
+.description-text>a {
   margin-top: 0px;
   float: right;
   font-style: italic;
+  color: rgb(131, 131, 131);
 }
+
+.description-text img {
+  margin-left: 5px;
+}
+
 .clients {
   width: 1030px;
 }
-.clients > p {
+
+.clients>p {
   font-size: 23px;
   font-family: "Segoe UI";
   color: rgb(0, 0, 0);
@@ -304,9 +333,11 @@ header {
   line-height: 1.565;
   margin-top: 55px;
 }
+
 .where {
   font-weight: bold;
 }
+
 .decor-line {
   display: inline-block;
   margin-left: 7px;
@@ -319,6 +350,7 @@ header {
   border: 1px solid #e4e4e4;
   margin-top: 42px;
 }
+
 .clients-about,
 .clients-mashable,
 .clients-techcrunch,
@@ -328,19 +360,24 @@ header {
   display: inline-block;
   position: relative;
 }
+
 .clients-about {
   width: 253px;
 }
+
 .clients-mashable {
   width: 226px;
 }
+
 .clients-techcrunch {
   width: 290px;
 }
+
 .clients-businessweek {
   width: 230px;
   border-right: none;
 }
+
 .clients-about img,
 .clients-mashable img,
 .clients-techcrunch img,
@@ -353,10 +390,12 @@ header {
   right: 0;
   bottom: 0;
 }
+
 .footer {
   background: #e8e8e8;
   width: 1300px;
 }
+
 .footer p {
   font-size: 15px;
   font-family: "Segoe UI";
@@ -365,12 +404,14 @@ header {
   padding-top: 29px;
   display: inline-block;
 }
+
 .social {
   display: inline-block;
   padding-left: 697px;
   padding-top: 21px;
   padding-bottom: 16px;
 }
+
 .social-twitter {
   padding-left: 12px;
 }
